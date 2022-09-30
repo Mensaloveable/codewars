@@ -18,14 +18,13 @@ public class SpinWords {
     public String spinWords(String sentence) {
         List<String> answer = new ArrayList<>();
         for (String item : sentence.split(" ")) {
-            if (item.length() < 5){
-                answer.add(item);
-            } else {
+            if (item.length() > 4){
                 StringBuilder mutate = new StringBuilder(item);
-                mutate.reverse();
-                answer.add(mutate.toString());
-            }
+                answer.add((mutate.reverse()).toString());
+            }else
+                answer.add(item);
         }
         return String.join(" ", answer);
     }
 }
+
