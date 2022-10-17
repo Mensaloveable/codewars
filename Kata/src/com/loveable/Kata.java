@@ -1,3 +1,5 @@
+package com.loveable;
+
 import java.util.ArrayList;
 public class Kata
 {

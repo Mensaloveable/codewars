@@ -1,3 +1,5 @@
+package com.loveable;
+
 //Task
 //    An ATM ran out of 10 dollar bills and only has 100, 50 and 20 dollar bills.
 //
