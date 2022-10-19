@@ -32,7 +32,6 @@ public class Unique {
         }
         return arr[0];
     }
-
     //////////////////////////This is better///////////////////
     public static double findUniq2(double arr[]) {
         Arrays.sort(arr);
